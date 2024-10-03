@@ -1,0 +1,521 @@
+/* Inter 18pt Black */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-Black.ttf")
+        format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Inter 18pt Black Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-BlackItalic.ttf")
+        format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Inter 18pt Bold */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-Bold.ttf")
+        format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Inter 18pt Bold Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-BoldItalic.ttf")
+        format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Inter 18pt ExtraBold */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-ExtraBold.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Inter 18pt ExtraBold Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-ExtraBoldItalic.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* Inter 18pt ExtraLight */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-ExtraLight.ttf")
+        format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Inter 18pt ExtraLight Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-ExtraLightItalic.ttf")
+        format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* Inter 18pt Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-Italic.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Inter 18pt Light */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-Light.ttf")
+        format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Inter 18pt Light Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-LightItalic.ttf")
+        format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Inter 18pt Medium */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-Medium.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Inter 18pt Medium Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-MediumItalic.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Inter 18pt Regular */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-Regular.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Inter 18pt SemiBold */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-SemiBold.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Inter 18pt SemiBold Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-SemiBoldItalic.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Inter 18pt Thin */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-Thin.ttf")
+        format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Inter 18pt Thin Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_18pt-ThinItalic.ttf")
+        format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Inter 24pt Black */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-Black.ttf")
+        format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Inter 24pt Black Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-BlackItalic.ttf")
+        format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Inter 24pt Bold */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-Bold.ttf")
+        format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Inter 24pt Bold Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-BoldItalic.ttf")
+        format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Inter 24pt ExtraBold */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-ExtraBold.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Inter 24pt ExtraBold Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-ExtraBoldItalic.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* Inter 24pt ExtraLight */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-ExtraLight.ttf")
+        format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Inter 24pt ExtraLight Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-ExtraLightItalic.ttf")
+        format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* Inter 24pt Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-Italic.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Inter 24pt Light */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-Light.ttf")
+        format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Inter 24pt Light Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-LightItalic.ttf")
+        format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Inter 24pt Medium */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-Medium.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Inter 24pt Medium Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-MediumItalic.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Inter 24pt Regular */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-Regular.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Inter 24pt SemiBold */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-SemiBold.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Inter 24pt SemiBold Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-SemiBoldItalic.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Inter 24pt Thin */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-Thin.ttf")
+        format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Inter 24pt Thin Italic */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter_24pt-ThinItalic.ttf")
+        format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Inter Variable Font */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Font/Inter/static/Inter-VariableFont_wght.ttf")
+        format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+/* Montserrat Black */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-Black.ttf")
+        format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Montserrat Black Italic */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-BlackItalic.ttf")
+        format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Montserrat Bold */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-Bold.ttf")
+        format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Montserrat Bold Italic */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-BoldItalic.ttf")
+        format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Montserrat ExtraBold */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-ExtraBold.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Montserrat ExtraBold Italic */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-ExtraBoldItalic.ttf")
+        format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* Montserrat ExtraLight */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-ExtraLight.ttf")
+        format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Montserrat ExtraLight Italic */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-ExtraLightItalic.ttf")
+        format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* Montserrat Italic */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-Italic.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Montserrat Light */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-Light.ttf")
+        format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Montserrat Light Italic */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-LightItalic.ttf")
+        format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Montserrat Medium */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-Medium.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Montserrat Medium Italic */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-MediumItalic.ttf")
+        format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Montserrat Regular */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-Regular.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Montserrat SemiBold */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-SemiBold.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Montserrat SemiBold Italic */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-SemiBoldItalic.ttf")
+        format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Montserrat Thin */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-Thin.ttf")
+        format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Montserrat Thin Italic */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-ThinItalic.ttf")
+        format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Montserrat Variable Font (Weight only) */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-VariableFont_wght.ttf")
+        format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+/* Montserrat Variable Font (Weight and Italic) */
+@font-face {
+    font-family: "Montserrat";
+    src: url("./assets/Font/Monsterrat/static/Montserrat-Italic-VariableFont_wght.ttf")
+        format("truetype");
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+/* Act of Rejection */
+@font-face {
+    font-family: "ActOfRejection";
+    src: url("./assets/Font/act_of_rejection/Act_Of_Rejection.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

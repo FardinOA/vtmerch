@@ -5,6 +5,11 @@
     --black: #111111;
     --white: #ffffff;
     --gray: #f6f5f5;
+
+    /* Font-family variables */
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "Montserrat", sans-serif;
+    --font-tertiary: "ActOfRejection", sans-serif;
 }
 
 /* Reset all default margin, padding, and border */
