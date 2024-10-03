@@ -1,0 +1,15 @@
+/* define variables */
+:root {
+    /* color variables */
+    --primary-color: #ea2127;
+    --black: #111111;
+    --white: #ffffff;
+    --gray: #f6f5f5;
+}
+
+/* Reset all default margin, padding, and border */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
