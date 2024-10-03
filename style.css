@@ -67,6 +67,10 @@ header {
 .header .menu-toggle {
     width: 32px;
     height: 32px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .header .menu-toggle img {
