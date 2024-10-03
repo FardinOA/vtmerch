@@ -11,10 +11,11 @@
     --font-secondary: "Montserrat", sans-serif;
     --font-tertiary: "ActOfRejection", sans-serif;
 
-    /* define breakpoints */
-    --breakpoint-tablet: 768px;
-    --breakpoint-laptop: 1024px;
-    --breakpoint-desktop: 1280px;
+    /* Base padding for mobile-first */
+    --container-padding-mobile: 16px;
+    --container-padding-tablet: 24px;
+    --container-padding-laptop: 32px;
+    --container-padding-desktop: 40px;
 }
 
 /* Reset all default margin, padding, and border */
@@ -24,23 +25,108 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 100%;
+    padding: var(--container-padding-mobile);
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.header .logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.header .logo-wrapper .logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.header .logo-wrapper .name {
+    font-family: var(--font-secondary);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.header .menu-toggle {
+    width: 32px;
+    height: 32px;
+}
+
+.header .menu-toggle img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* header */
+
 /* Tablets (768px and up) */
-@media (min-width: var(--breakpoint-tablet)) {
-    .header {
-        /* Styles for tablets and larger */
+@media (min-width: 768px) {
+    .container {
+        padding: var(--container-padding-tablet);
+        max-width: 768px;
     }
 }
 
 /* Laptops (1024px and up) */
-@media (min-width: var(--breakpoint-laptop)) {
-    .header {
-        /* Styles for laptops and larger */
+@media (min-width: 1024px) {
+    .container {
+        padding: var(--container-padding-laptop);
+        max-width: 1024px;
     }
+
+    /* header */
+    .header {
+        padding: 24px 32px;
+    }
+
+    .header .logo-wrapper .name {
+        font-size: 80px;
+
+        line-height: 90.4px;
+        letter-spacing: 10px;
+    }
+
+    .header .logo-wrapper .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header .menu-toggle {
+        width: 40px;
+        height: 40px;
+    }
+    /* header */
 }
 
 /* Desktops (1280px and up) */
-@media (min-width: var(--breakpoint-desktop)) {
-    .header {
-        /* Styles for desktops and larger */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* Desktops (1600px and up) */
+@media (min-width: 1600px) {
+    .container {
+        padding: var(--container-padding-desktop);
+        max-width: 1600px;
     }
 }
