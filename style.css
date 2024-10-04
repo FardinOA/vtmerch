@@ -31,9 +31,23 @@
     margin: 0 auto;
 }
 
+.btn {
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: var(--white);
+    outline: none;
+    border: none;
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    letter-spacing: 0.005em;
+    text-align: center;
+}
+
 .section-gap {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
 }
 
 /* header */
@@ -230,6 +244,111 @@ header {
 
 /* best seller */
 
+/* show now */
+
+.shop-now {
+    background-color: var(--black);
+}
+
+.shop-now .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+}
+
+.shop-now .subtitle {
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: 0.5px;
+    color: var(--white);
+}
+
+.shop-now .title {
+    margin-top: 16px;
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0.5px;
+    background: linear-gradient(180deg, #de2a2f 0%, #ef5256 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.shop-now .btn {
+    margin-top: 28px;
+}
+
+.pat-signature {
+    max-width: 100%;
+    aspect-ratio: 754/223;
+    object-fit: contain;
+    margin-top: 24px;
+    display: block;
+}
+
+.shop-now .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-now .image-container img {
+    width: 100%;
+    aspect-ratio: 404/518;
+    object-fit: contain;
+}
+
+/* show now */
+
+/* mission */
+
+.mission {
+    background-color: var(--primary-color);
+}
+
+.mission .container {
+    position: relative;
+}
+
+.mission .section-gap {
+    padding-bottom: 0 !important;
+}
+
+.mission .quotes {
+    position: absolute;
+    top: 16px;
+    left: 8px;
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    width: 50px;
+}
+
+.mission .men {
+    aspect-ratio: 571/725;
+
+    width: 471px;
+    object-fit: contain;
+}
+
+.mission .title {
+    color: var(--white);
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.005em;
+}
+
+/* mission */
+
 /* Tablets (768px and up) */
 @media (min-width: 768px) {
     .container {
@@ -274,6 +393,48 @@ header {
 
     .best-seller .card .price {
         font-size: 16px;
+    }
+
+    /* shop now */
+
+    .shop-now .btn {
+        margin-top: 48px;
+    }
+
+    .shop-now .subtitle {
+        font-size: 49px;
+        line-height: 58.8px;
+        letter-spacing: 0.5px;
+    }
+
+    .shop-now .title {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 84px;
+        letter-spacing: 0.5px;
+    }
+
+    /* mission */
+
+    .mission .section-gap {
+        padding-bottom: 201px !important;
+    }
+    .mission .men {
+        position: absolute;
+        aspect-ratio: 571/725;
+        bottom: 0;
+        right: 0;
+        width: 471px;
+        object-fit: contain;
+    }
+
+    .mission .title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .mission .men {
+        width: 150px;
     }
 }
 
@@ -321,6 +482,36 @@ header {
         gap: 24px;
         margin-top: 48px;
     }
+
+    /* shop now */
+
+    .shop-now .image-container img:first-child {
+        width: 370px;
+        height: 588px;
+    }
+    .shop-now .image-container img:last-child {
+        width: 404px;
+        height: 518px;
+    }
+
+    /* mission */
+
+    .mission .quotes {
+        width: 140px;
+        top: 16px;
+    }
+    .mission .men {
+        width: 471px;
+    }
+
+    .mission .title {
+        font-size: 38px;
+        line-height: 37.6px;
+    }
+
+    .mission .men {
+        width: 250px;
+    }
 }
 
 /* Desktops (1280px and up) */
@@ -330,8 +521,8 @@ header {
     }
 
     .section-gap {
-        padding-top: 101px;
-        padding-bottom: 101px;
+        padding-top: 101px !important;
+        padding-bottom: 101px !important;
     }
 
     /* hero */
@@ -346,6 +537,28 @@ header {
     }
 
     /* hero */
+
+    /* shop now */
+    .shop-now .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .shop-now .subtitle {
+        font-size: 39px;
+        line-height: 58.8px;
+    }
+
+    .shop-now .title {
+        font-size: 70px;
+        line-height: 84px;
+    }
+    .pat-signature {
+        display: block;
+        width: 754px;
+    }
+    .shop-now .image-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Desktops (1600px and up) */
@@ -393,4 +606,24 @@ header {
         transform: translateY(-20%);
     }
     /* hero */
+
+    .mission .section-gap {
+        padding-top: 201px !important;
+    }
+
+    .mission .quotes {
+        top: 48px;
+        left: 0;
+        width: 221px;
+    }
+
+    .mission .men {
+        width: 471px;
+    }
+
+    .mission .title {
+        font-size: 48px;
+
+        line-height: 57.6px;
+    }
 }
