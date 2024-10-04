@@ -31,6 +31,11 @@
     margin: 0 auto;
 }
 
+.section-gap {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 /* header */
 
 header {
@@ -86,7 +91,6 @@ header {
 .hero {
     background-color: var(--primary-color);
     padding: var(--container-padding-mobile);
-    min-height: 802px;
 }
 
 .hero .title {
@@ -163,6 +167,69 @@ header {
     color: var(--white);
 }
 
+/* best seller */
+.best-seller {
+    background-color: var(--gray);
+}
+
+.best-seller .title {
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+
+.best-seller .title .text-stroke {
+    -webkit-text-fill-color: var(--gray);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.best-seller .product-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-top: 28px;
+}
+
+.best-seller .card {
+    background-color: var(--white);
+    padding: 6px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.best-seller .card > div {
+    padding-bottom: 0;
+}
+
+.best-seller .card img {
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    height: auto;
+}
+
+.best-seller .card .card-title {
+    color: #060606;
+}
+
+.best-seller .card .price-wrapper {
+    margin-top: 6px;
+}
+
+.best-seller .card .price {
+    color: #060606;
+    font-size: 14px;
+}
+
+.best-seller .card .price.old {
+    color: #9b9b9b;
+}
+
+/* best seller */
+
 /* Tablets (768px and up) */
 @media (min-width: 768px) {
     .container {
@@ -184,6 +251,28 @@ header {
     /* hero */
 
     .card .title {
+        font-size: 16px;
+    }
+
+    .best-seller .title {
+        font-size: 45px;
+
+        line-height: 50px;
+    }
+
+    .best-seller .card {
+        padding: 16px;
+        border-radius: 12px;
+    }
+
+    .best-seller .card img {
+        border-radius: 8px;
+    }
+    .best-seller .card .price-wrapper {
+        margin-top: 12px;
+    }
+
+    .best-seller .card .price {
         font-size: 16px;
     }
 }
@@ -221,12 +310,28 @@ header {
     .hero-product-slider {
         transform: translateY(-15%);
     }
+
+    .best-seller .title {
+        font-size: 70px;
+        line-height: 84px;
+        letter-spacing: 0.5px;
+    }
+    .best-seller .product-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+        margin-top: 48px;
+    }
 }
 
 /* Desktops (1280px and up) */
 @media (min-width: 1280px) {
     .container {
         max-width: 1280px;
+    }
+
+    .section-gap {
+        padding-top: 101px;
+        padding-bottom: 101px;
     }
 
     /* hero */
