@@ -23,6 +23,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-primary);
 }
 
 .container {
@@ -31,7 +32,8 @@
     margin: 0 auto;
 }
 
-.btn {
+.btn,
+input {
     padding: 16px 32px;
     border-radius: 12px;
     background-color: var(--white);
@@ -43,6 +45,7 @@
     line-height: 19.2px;
     letter-spacing: 0.005em;
     text-align: center;
+    cursor: pointer;
 }
 
 .section-gap {
@@ -76,6 +79,7 @@ header {
     object-fit: contain;
 }
 
+.footer .name,
 .header .logo-wrapper .name {
     font-family: var(--font-secondary);
     font-size: 32px;
@@ -349,6 +353,136 @@ header {
 
 /* mission */
 
+/* footer */
+.footer {
+    background-color: var(--black);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .logo {
+    color: var(--primary-color);
+    stroke: var(--primary-color);
+    fill: var(--primary-color);
+}
+
+.footer .logo path {
+    fill: var(--primary-color);
+}
+
+.footer-left {
+    text-align: center;
+}
+.footer-left p {
+    font-family: var(--font-secondary);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+
+.footer .logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #a6a5a380;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-form input {
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+.footer-form .btn {
+    padding: 12px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-column ul li a i {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.footer-bottom p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5%;
+    color: #ffffffcc;
+}
+
+.payment-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.payment-icons img {
+    aspect-ratio: 32/20;
+    width: 32px;
+    object-fit: contain;
+}
+
+/* footer */
+
 /* Tablets (768px and up) */
 @media (min-width: 768px) {
     .container {
@@ -450,6 +584,7 @@ header {
         padding: 24px 32px;
     }
 
+    .footer .name,
     .header .logo-wrapper .name {
         font-size: 80px;
 
@@ -512,6 +647,53 @@ header {
     .mission .men {
         width: 250px;
     }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+    .footer-left {
+        text-align: left;
+
+        width: fit-content;
+        max-width: 517px;
+    }
+
+    .footer-left p {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+
+    .footer-column h4 {
+        margin-bottom: 24px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .footer-links {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 40px;
+        width: 100%;
+    }
+
+    .footer-column ul {
+        text-align: left;
+    }
+    .footer-column ul li a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer-bottom {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 
 /* Desktops (1280px and up) */
@@ -558,6 +740,17 @@ header {
     }
     .shop-now .image-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .footer .logo-wrapper {
+        padding-bottom: 32px;
+        margin-bottom: 48px;
     }
 }
 
