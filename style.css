@@ -743,6 +743,10 @@ header {
         line-height: 110px;
     }
 
+    .hero-product-slider .swiper-slide:first-child {
+        margin-left: 100px;
+    }
+
     /* hero */
 
     /* shop now */
@@ -822,6 +826,10 @@ header {
 
     .hero-product-slider {
         transform: translateY(-20%);
+    }
+
+    .hero-product-slider .swiper-slide:first-child {
+        margin-left: 200px;
     }
     /* hero */
 
