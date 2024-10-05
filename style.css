@@ -363,6 +363,7 @@ header {
 
 .mission {
     background-color: var(--primary-color);
+    overflow: hidden;
 }
 
 .mission .container {
@@ -386,7 +387,7 @@ header {
 .mission .men {
     aspect-ratio: 571/725;
 
-    width: 471px;
+    width: 271px;
     object-fit: contain;
 }
 
