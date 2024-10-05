@@ -12,5 +12,13 @@ var swiper = new Swiper(".hero-product-slider", {
             slidesPerView: 4.6,
             spaceBetween: 24,
         },
+        1280: {
+            slidesPerView: 5,
+            slidesOffsetBefore: 100,
+        },
+        1280: {
+            slidesPerView: 5,
+            slidesOffsetBefore: 200,
+        },
     },
 });
